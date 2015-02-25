@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dados>
+	<loja>
+		<uf>SP</uf>
+		<cidade>São Bernardo do Campo</cidade>
+		<info>
+			<nome>CHRONIC 420 SBC</nome>
+			<endereco>Rua Felício Carnaval Piccoli, 111 - São Bernardo do Campo - SP</endereco>
+			<google>Parque Selecta, São Bernardo do Campo - State of São Paulo</google>
+			<telefone>(11) 4335-4230</telefone>
+			<funcionamento>Segunda a sábado das 10h às 20h Domingos e feriados das 12h às 18h</funcionamento>
+			<img/>
+			<lat/>
+			<lng/>
+		</info>
+	</loja>
+</dados>

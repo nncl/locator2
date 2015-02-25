@@ -1,0 +1,222 @@
+@import url("//fonts.googleapis.com/css?family=Lato:400,700,900");
+
+.general {
+	float: left;
+	width: 100%;
+}
+
+.localizador {
+	font-family: 'Lato', sans-serif;
+	float: left;
+	width: 100%;
+	position: relative;
+	height: 637px;
+}
+
+.localizador .open-menu {    
+    font-size: 33px;
+    text-align: center;
+    width: 55px;
+    height: 50px;
+    float: left;
+    z-index: 999;
+    position: relative;
+    cursor: pointer;
+    webkit-transition: linear 0.3s;
+	-moz-transition: linear 0.3s;
+	-o-transition: linear 0.3s;
+	transition: linear 0.3s;
+    color: #000;
+    margin-top: 13px;
+
+}
+
+.localizador .menu {
+    position: absolute;
+    z-index: 10;
+    float: left;
+    width: 15%;
+    background: #FFF;
+    height: 90%;
+    left: 20px; /*0*/
+    display: block;
+    margin-top: 13px;
+}
+
+.localizador .open-menu.active {
+	right: -15.8%;
+    margin-top: 13px;
+	webkit-transition: linear 0.3s;
+	-moz-transition: linear 0.3s;
+	-o-transition: linear 0.3s;
+	transition: linear 0.3s;
+
+}
+
+.localizador .menu h3 {
+	float: left;
+    width: 90%;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 900;
+    margin-left: 5%;
+    border-bottom: 1px solid #000;
+	padding-bottom: 5px;
+    
+	margin-bottom: 20px;
+    padding-top: 12px;
+    padding-right: 2%;
+}
+
+.localizador .menu .filtro {
+    float: left;
+    width: 92%;
+    padding-left: 5%;
+    margin-bottom: 30px;
+}
+
+.localizador .menu .filtro label {
+	display: none;
+}
+
+.localizador .menu .filtro select {
+    background: #f7f7f7;
+    border: 0;
+    height: 39px;
+    text-transform: uppercase;
+    color: #989898;
+    font-size: 12px;
+    width: 100%%;
+    padding-left: 3%;
+    margin-bottom: 7px;
+    margin-right: 1%;
+    outline-color: #ccc;
+}
+
+.localizador .menu .filtro input[type="text"] {
+    background: #f7f7f7;
+    border: 0;
+    width: 95%;
+    color: #989898;  font-size: 12px;
+    text-transform: uppercase;
+    padding-left: 4%;
+    height: 40px;
+    outline-color: #ccc;
+}
+
+.localizador .menu .filtro .state_select_wrapper {
+    float: left;
+    width: 48.5%;
+}
+
+.localizador .menu .filtro .city_select_wrapper {
+    float: right;
+    width: 48.5%;
+}
+
+.localizador .result {
+    float: left;
+    width: 100%;
+    padding-left: 5%;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #333333;
+    min-height: 170px;
+    background-color: #d1f1df;
+}
+
+.state-wrapper.collapsed {
+	display: none;
+}
+
+.state-wrapper.open {
+	display: block;
+}
+
+.store-container .collapsed {
+	display: none;
+}
+
+.store-container .open {
+	display: block;
+}
+
+.localizador .result li {
+    margin-bottom: 12px;
+    line-height: 19px;
+    float: left;
+    width: 95%;
+    border-bottom: 1px solid #000;
+    padding-bottom: 14px;
+}
+
+.localizador .result li:last-child { 
+	border: 0;
+}
+
+.localizador .result h4 {
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 5px;
+    display: none;
+}
+
+.localizador .result h5 {
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 9px;
+}
+
+.localizador .result .info-text-container {
+    float: left;
+    width: 100%;
+}
+
+.localizador .result .info-text-container .address {
+    float: left;
+    
+    width: 90%;
+    margin: 0;
+}
+
+.localizador .result .info-text-container .tel {
+    float: left;  
+    width: 90%;    
+    margin: 0;
+}
+
+.localizador .result .info-text-container .hours {
+    float: left;  width: 90%;
+    line-height: 15px;
+}
+
+.localizador .map {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.localizador .map .map-container {
+    width: 100%;
+    height: 710px;
+    display: none;
+}
+
+.localizador .map .map-container.active {
+    display: block;
+}
+
+.localizador .result .info-text-container .hours {
+    display: none !important;
+}
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        .localizador .menu {
+            width: 100%;
+        }
+        .localizador .open-menu.active {
+            display: none;
+        }
+    }
