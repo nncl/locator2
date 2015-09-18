@@ -1,2 +1,8 @@
-# locator2
-That locator.
+# Store Locator 2
+
+A store locator with data from XML file.
+
+## Note
+
+1. Put on your HTML file, instead of CSS and JS stuff, a div with a `map` class.
+2. Another example of it is [Lelis Blanc](http://www.lelis.com.br/skin/frontend/default/lelisuber/storelocator/lelis.html)
